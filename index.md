@@ -90,5 +90,23 @@ class Dog {
 ```markdown
 let poppy = Dog(name: "Poppy", breed: "Poodle")
 ```
+5、类可以继承已经存在的类。新的类继承了原始类所有的属性和方法。这个过程被称为 类继承 或者 子类化， 被继承的类称为 “父类” 或者 “超类”， 而新的类称为 “子类” 。
+下面是一个 Dog 类：
+```markdown
+class Dog {
+  var name: String
+  var breed: String
+
+  init(name: String, breed: String) {
+    self.name = name
+    self.breed = breed
+  }
+}
+```
+现在让我们基于 Dog 来创建一个新的类 Poodle。默认情况下，它会继承 Dog 的所有属性以及构造器。
+class Poodle: Dog {
+}
+6、
+
 
 
