@@ -70,6 +70,22 @@ struct structtest {
 }
 ```
 3、struct是存放在栈空间上的，而class是存放在堆空间上的，因此使用struct的访问速度会更快
+4、类和结构体的第一个区别是类没有逐一成员构造器。这意味着只要你的类里有属性，你就必须自行创建构造器。
+```markdown
 
+class Dog {
+  var name: String
+  var breed: String
+
+  init(name: String, breed: String) {
+    self.name = name
+    self.breed = breed
+  }
+}
+```
+创建类的实例跟创建结构体的实例方式一样：
+```markdown
+let poppy = Dog(name: "Poppy", breed: "Poodle")
+```
 
 
