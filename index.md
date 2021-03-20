@@ -33,8 +33,9 @@ class ATKVOModel: NSObject {
 ```
 
 ### 3、struct与class的区别
+struct和class是swift的两大数据结构，理解struct和class很重要
 
-1、class是引用类型的数据结构，struct是值类型的数据结构
+1、class是引用类型的数据结构，struct是值类型的数据结构，枚举也是值类型
 ```markdown
 
 func kk() ->String {
