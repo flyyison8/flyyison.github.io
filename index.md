@@ -104,8 +104,10 @@ class Dog {
 }
 ```
 现在让我们基于 Dog 来创建一个新的类 Poodle。默认情况下，它会继承 Dog 的所有属性以及构造器。
+```markdown
 class Poodle: Dog {
 }
+```
 6、
 
 
